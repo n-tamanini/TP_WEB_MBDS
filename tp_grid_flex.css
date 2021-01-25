@@ -19,8 +19,8 @@
 	 	grid-area: footer;
 	 	background-color: #A7BAF0;
 		color: white; 
-		position: fixed;
-		bottom: 0;
+		grid-row-start: 4;
+
 	 }
 
 .main-container { 
@@ -30,12 +30,12 @@
 	grid-template-areas: "header" "main" "footer";
 	grid-row-gap: 15px;
 
-
 }
 
 .container {
 	display: flex;
 	flex-direction: row;
+
 	
 }
 
@@ -43,14 +43,14 @@
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-
+	flex-grow: 1;
+	padding-right: 50px;
 	
-
-
 }
 
 .prix {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 }
