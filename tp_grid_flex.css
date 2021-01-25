@@ -1,0 +1,56 @@
+.item-a { 
+	grid-area: header; 
+	background-color: #A7BAF0;
+	color: white;
+	} 
+
+
+.item-b {
+	 display: flex;
+	 flex-direction: column;
+	 grid-area: main; 
+	 background-color: #DFE3EE;
+	 grid-row-gap: 15px;
+
+	 } 
+
+
+.item-d { 
+	 	grid-area: footer;
+	 	background-color: #A7BAF0;
+		color: white; 
+		position: fixed;
+		bottom: 0;
+	 }
+
+.main-container { 
+	display: grid; 
+	grid-template-columns: auto; 
+	grid-template-rows: 100px, auto, 100px; 
+	grid-template-areas: "header" "main" "footer";
+	grid-row-gap: 15px;
+
+
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+
+	
+
+
+}
+
+.prix {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
